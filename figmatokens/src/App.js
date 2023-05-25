@@ -1,25 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+export const App = () => {
 
-export default App;
+  const inputRef = useRef();
+
+  const onClick = () => {
+      inputRef.current.firstChild.focus();
+  }
+
+  return (
+      <>
+      <Typography
+          variant="h3"
+      >FocusScreen</Typography>
+
+      <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+          <Input
+              ref={inputRef}
+              type="text"
+              placeholder="Ingrese su nombre"
+              sx={{ mt:3, width:200 }}
+              />
+          <Button
+              variant="contained" 
+              sx={{ mt: 3, width:100 }}
+              onClick={onClick}
+          >Focus</Button>
+      </Box>
+    </>
+  )
+}

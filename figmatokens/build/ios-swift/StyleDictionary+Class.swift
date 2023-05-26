@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 25 May 2023 09:02:28 GMT
+// Generated on Thu, 25 May 2023 09:09:44 GMT
 
 
 import UIKit
@@ -21,7 +21,7 @@ public class StyleDictionaryClass {
     public static let globalFsize2 = 20
     public static let globalFsz1 = 16
     public static let globalPink1 = #637fff
-    public static let globalPink2 = #FFA9F6
+    public static let globalPink2 = #a20793
     public static let globalPink3 = #FFD2FB
     public static let globalPink4 = #fceaff
     public static let globalRadius1 = 5

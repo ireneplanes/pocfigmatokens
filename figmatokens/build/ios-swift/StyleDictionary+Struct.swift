@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 25 May 2023 09:02:28 GMT
+// Generated on Thu, 25 May 2023 09:09:44 GMT
 
 
 import UIKit
@@ -21,7 +21,7 @@ internal struct StyleDictionaryStruct {
     internal static let globalFsize2 = 20
     internal static let globalFsz1 = 16
     internal static let globalPink1 = #637fff
-    internal static let globalPink2 = #FFA9F6
+    internal static let globalPink2 = #a20793
     internal static let globalPink3 = #FFD2FB
     internal static let globalPink4 = #fceaff
     internal static let globalRadius1 = 5

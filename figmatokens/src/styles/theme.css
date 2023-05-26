@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 25 May 2023 09:09:44 GMT
+ * Generated on Fri, 26 May 2023 07:40:09 GMT
  */
 
 :root {
@@ -16,12 +16,13 @@
   --size-font-medium: 1rem; /* the medium size of the font */
   --size-font-large: 2rem; /* the large size of the font */
   --size-font-base: 1rem; /* the base size of the font */
-  --global-pink1: #637fff;
-  --global-pink2: #a20793;
-  --global-pink3: #FFD2FB;
+  --global-bg-color2: #637fff;
+  --global-bg-color1: #a20793;
   --global-radius1: 5;
-  --global-fsz1: 16;
+  --global-font-size1: 1.5em;
   --global-radius2: 10;
-  --global-fsize2: 20;
-  --global-pink4: #fceaff;
+  --global-font-size2: 3em;
+  --global-font-family1: Inter;
+  --global-font-family2: Comic Neue;
+  --global-letter-spacing1: 5px;
 }

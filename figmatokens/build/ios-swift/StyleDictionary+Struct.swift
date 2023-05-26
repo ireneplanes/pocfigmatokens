@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 25 May 2023 09:09:44 GMT
+// Generated on Fri, 26 May 2023 07:40:09 GMT
 
 
 import UIKit
@@ -18,12 +18,13 @@ internal struct StyleDictionaryStruct {
     internal static let colorFontBase = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1)
     internal static let colorFontSecondary = UIColor(red: 0.000, green: 1.000, blue: 0.000, alpha: 1)
     internal static let colorFontTertiary = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1)
-    internal static let globalFsize2 = 20
-    internal static let globalFsz1 = 16
-    internal static let globalPink1 = #637fff
-    internal static let globalPink2 = #a20793
-    internal static let globalPink3 = #FFD2FB
-    internal static let globalPink4 = #fceaff
+    internal static let globalBgColor1 = #a20793
+    internal static let globalBgColor2 = #637fff
+    internal static let globalFontFamily1 = Inter
+    internal static let globalFontFamily2 = Comic Neue
+    internal static let globalFontSize1 = 1.5em
+    internal static let globalFontSize2 = 3em
+    internal static let globalLetterSpacing1 = 5px
     internal static let globalRadius1 = 5
     internal static let globalRadius2 = 10
     internal static let sizeFontBase = CGFloat(16.00) /* the base size of the font */

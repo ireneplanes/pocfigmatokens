@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 26 May 2023 07:40:09 GMT
+ * Generated on Fri, 26 May 2023 07:57:15 GMT
  */
 
 :root {
@@ -16,8 +16,8 @@
   --size-font-medium: 1rem; /* the medium size of the font */
   --size-font-large: 2rem; /* the large size of the font */
   --size-font-base: 1rem; /* the base size of the font */
-  --global-bg-color2: #637fff;
-  --global-bg-color1: #a20793;
+  --global-bg-color2: #e6ebff;
+  --global-bg-color1: #816dff;
   --global-radius1: 5;
   --global-font-size1: 1.5em;
   --global-radius2: 10;
@@ -25,4 +25,5 @@
   --global-font-family1: Inter;
   --global-font-family2: Comic Neue;
   --global-letter-spacing1: 5px;
+  --global-font-size3: 1.2em;
 }

@@ -14,6 +14,7 @@ import {
   } from '@mui/material'
   import { makeStyles } from '../config/theme/makeStyles'
 import React from 'react'
+import '../styles/theme.css';
   
 const useStyles = makeStyles()((theme: Theme) => ({
     headerCell: {
@@ -70,17 +71,6 @@ const useStyles = makeStyles()((theme: Theme) => ({
     },
     pagination: {
       display: 'flex'
-    },
-    paginationWithDots: {
-      display: 'flex'
-    },
-    noDataText: {
-      textAlign: 'center'
-    },
-    noDataCell: {
-      backgroundColor: 'rgba(255,255,255,1)',
-      borderBottom: `1px solid ${'rgba(255,255,255,1)'}`,
-      borderRadius: '0px 0px 12px 12px'
     },
     errorText: {
       color: '#D82A48',

@@ -2,6 +2,7 @@ import { Box, Button, Skeleton, SvgIcon, Theme, Typography } from '@mui/material
 import Table from "./components/Table";
 import { makeStyles } from './config/theme/makeStyles'
 import React from "react";
+import './styles/theme.css';
 
 export const PoC = () => {
 
@@ -29,12 +30,12 @@ export const PoC = () => {
         marginTop: 'unset',
         textTransform: 'unset',
         fontSize: '14px',
-        backgroundColor: '#E20074',
+        backgroundColor: 'var(--colors-magenta)',
         color:'white',
         '&:hover, &:active': {
-          border: '1px solid #E20074',
+          border: '1px solid var(--colors-magenta)',
           marginTop: 'unset',
-          backgroundColor: '#E20074',
+          backgroundColor: 'var(--colors-magenta)',
         }
       },
       secondButton: {
@@ -42,10 +43,10 @@ export const PoC = () => {
         marginTop: 'unset',
         textTransform: 'unset',
         fontSize: '14px',
-        color: '#E20074',
-        border: '1px solid #E20074',
+        color: 'var(--colors-magenta)',
+        border: '1px solid var(--colors-magenta)',
         '&:hover, &:active': {
-          border: '1px solid #E20074',
+          border: '1px solid var(--colors-magenta)',
         }
       },
       thirdButton: {
@@ -53,20 +54,20 @@ export const PoC = () => {
         marginTop: 'unset',
         textTransform: 'unset',
         fontSize: '14px',
-        border: `1px solid #191919`,
-        color: '#191919',
+        border: `1px solid var(--colors-black)`,
+        color: 'var(--colors-black)',
         '&:hover, &:active, &:focus': {
-          border: '1px solid #191919',
-          color: '#191919'
+          border: '1px solid var(--colors-black)',
+          color: 'var(--colors-black)'
         }
       },
       searchField: {
         boxSizing: 'border-box',
         border: 'unset',
         width: '100%',
-        outline: '1px solid #B2B2B2',
-        color: '#191919',
-        backgroundColor: 'rgba(255,255,255,1)',
+        outline: '1px solid var(--colors-grey)',
+        color: 'var(--colors-black)',
+        backgroundColor: 'var(--colors-white)',
         borderRadius: '6px',
         height: '33px',
         paddingLeft: '45px',
@@ -75,10 +76,10 @@ export const PoC = () => {
         transition: '0.2s',
         fontSize:'14px',
         '&:hover': {
-          backgroundColor: '#f2f2f2'
+          backgroundColor: 'var(--colors-light-grey)'
         },
         '&:focus, &:active': {
-          outline: '2px solid #E20074',
+          outline: '2px solid var(--colors-magenta)',
           boxShadow: '0px 4px 15px rgb(226 0 116 / 18%)'
         },
       },
@@ -97,7 +98,7 @@ export const PoC = () => {
       }
     }))
     
-    const { classes, cx } = useStyles()
+    const { classes } = useStyles()
 
   return (
     <Box>
@@ -111,7 +112,7 @@ export const PoC = () => {
                 <path d="M0 0H51V51H0V0Z" fill="transparent" />
                 <path
                     d="M33.5116 31.3277H40.7974V24.042H37.1609H33.5245V31.3277H33.5116ZM40.7974 7.28613V19.6731H38.6129V19.3133C38.6129 13.4796 35.3363 9.8432 29.1428 9.8432H28.783V36.0692C28.783 39.7056 30.235 41.1705 33.8843 41.1705H34.9765V43.7147H16.0362V41.1705H17.1284C20.7649 41.1705 22.2297 39.7185 22.2297 36.0692V9.83035H21.8699C15.6764 9.83035 12.3998 13.4668 12.3998 19.3005V19.6603H10.2154V7.28613H40.7974ZM17.4882 31.3277H10.2025V24.042H13.8389H17.4754V31.3277H17.4882Z"
-                    fill="#E20074" />
+                    fill="var(--colors-magenta)" />
             </g>
             <defs>
                 <clipPath id="clip0_15692_88405">

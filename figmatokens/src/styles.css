@@ -1,13 +1,13 @@
 @import 'styles/theme.css';
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Inter:wght@300&family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.cdnfonts.com/css/teleneo-office');
 
 * {
-    font-family: var(--global-font-family2);
-    background-color: var(--global-bg-color1);
+    font-family: 'TeleNeo', sans-serif !important;
   }
   
   body {
     padding: 60px;
+    /* background-color: #E20074; */
   }
   
   input {

@@ -1,29 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Fri, 26 May 2023 11:09:29 GMT
+ * Generated on Tue, 30 May 2023 08:59:30 GMT
  */
 
 :root {
-  --color-base-gray-light: #cccccc;
-  --color-base-gray-medium: #999999;
-  --color-base-gray-dark: #111111;
-  --color-base-red: #ff0000;
-  --color-base-green: #00ff00;
-  --color-font-base: #ff0000;
-  --color-font-secondary: #00ff00;
-  --color-font-tertiary: #cccccc;
-  --size-font-small: 0.75rem; /* the small size of the font */
-  --size-font-medium: 1rem; /* the medium size of the font */
-  --size-font-large: 2rem; /* the large size of the font */
-  --size-font-base: 1rem; /* the base size of the font */
-  --global-bg-color2: #e6ebff;
-  --global-bg-color1: #f3b258;
-  --global-radius1: 5;
-  --global-font-size1: 1.5em;
-  --global-radius2: 10;
-  --global-font-size2: 3em;
-  --global-font-family1: Inter;
-  --global-font-family2: Comic Neue;
-  --global-letter-spacing1: 5px;
-  --global-font-size3: 1.2em;
+  --colors-magenta: #E20074;
+  --colors-black: #191919;
+  --colors-grey: #B2B2B2;
+  --colors-light-grey: #f2f2f2;
+  --colors-white: #ffffff;
 }

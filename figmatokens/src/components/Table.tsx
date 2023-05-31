@@ -18,7 +18,7 @@ import '../styles/theme.css';
   
 const useStyles = makeStyles()((theme: Theme) => ({
     headerCell: {
-      backgroundColor: '#EAEAEA',
+      backgroundColor: 'var(--colors-grey3)',
       paddingTop: '8px',
       paddingBottom: '8px'
     },
@@ -35,10 +35,10 @@ const useStyles = makeStyles()((theme: Theme) => ({
     },
     tableRow: {
       '&:nth-of-type(even) td': {
-        backgroundColor: 'white'
+        backgroundColor: 'var(--colors-white)'
       },
       '&:nth-of-type(odd) td': {
-        backgroundColor: '#F6F6F6'
+        backgroundColor: 'var(--colors-grey4)'
       },
       '& td': {
         fontSize: '16px',
@@ -61,21 +61,16 @@ const useStyles = makeStyles()((theme: Theme) => ({
       fontSize: '16px',
       fontWeight: '500',
       transition: '0.2s',
-      fontFamily: 'TeleNeo',
       '&:hover': {
-        color: '#E20074'
+        color: 'var(--colors-magenta)'
       }
     },
     activePage: {
-      color: '#E20074'
+      color: 'var(--colors-magenta)'
     },
     pagination: {
       display: 'flex'
     },
-    errorText: {
-      color: '#D82A48',
-      textAlign: 'center'
-    }
   })) 
 
   const TableSkeleton = (

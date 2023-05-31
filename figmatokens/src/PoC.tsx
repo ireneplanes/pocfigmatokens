@@ -76,7 +76,7 @@ export const PoC = () => {
         transition: '0.2s',
         fontSize:'14px',
         '&:hover': {
-          backgroundColor: 'var(--colors-light-grey)'
+          backgroundColor: 'var(--colors-grey2)'
         },
         '&:focus, &:active': {
           outline: '2px solid var(--colors-magenta)',
@@ -86,6 +86,7 @@ export const PoC = () => {
       searchBox: {
         position: 'relative',
         right:'16px',
+        borderColor: 'var(--colors-grey)'
       },
       searchIcon: {
         position: 'absolute',
@@ -97,7 +98,7 @@ export const PoC = () => {
         
       }
     }))
-    
+    // fuente, borde de tabla, border-radius, imagenes (assets),
     const { classes } = useStyles()
 
   return (

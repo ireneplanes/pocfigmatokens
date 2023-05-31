@@ -1,12 +1,15 @@
 /**
  * Do not edit directly
- * Generated on Tue, 30 May 2023 08:59:30 GMT
+ * Generated on Tue, 30 May 2023 13:56:18 GMT
  */
 
 :root {
   --colors-magenta: #E20074;
   --colors-black: #191919;
-  --colors-grey: #B2B2B2;
-  --colors-light-grey: #f2f2f2;
+  --colors-grey1: #B2B2B2;
+  --colors-grey2: #f2f2f2;
   --colors-white: #ffffff;
+  --colors-grey3: #EAEAEA;
+  --colors-grey4: #F6F6F6;
+  --colors-red: #D82A48;
 }

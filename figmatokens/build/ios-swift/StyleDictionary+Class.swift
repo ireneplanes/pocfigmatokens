@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 30 May 2023 08:59:30 GMT
+// Generated on Tue, 30 May 2023 13:56:18 GMT
 
 
 import UIKit
@@ -19,9 +19,12 @@ public class StyleDictionaryClass {
     public static let colorFontSecondary = UIColor(red: 0.000, green: 1.000, blue: 0.000, alpha: 1)
     public static let colorFontTertiary = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1)
     public static let colorsBlack = #191919
-    public static let colorsGrey = #B2B2B2
-    public static let colorsLightGrey = #f2f2f2
+    public static let colorsGrey1 = #B2B2B2
+    public static let colorsGrey2 = #f2f2f2
+    public static let colorsGrey3 = #EAEAEA
+    public static let colorsGrey4 = #F6F6F6
     public static let colorsMagenta = #E20074
+    public static let colorsRed = #D82A48
     public static let colorsWhite = #ffffff
     public static let sizeFontBase = CGFloat(16.00) /* the base size of the font */
     public static let sizeFontLarge = CGFloat(32.00) /* the large size of the font */

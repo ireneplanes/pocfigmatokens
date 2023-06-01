@@ -3,6 +3,7 @@ import Table from "./components/Table";
 import { makeStyles } from './config/theme/makeStyles'
 import React from "react";
 import './styles/theme.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export const PoC = () => {
 
@@ -29,46 +30,49 @@ export const PoC = () => {
         height: '35px',
         marginTop: 'unset',
         textTransform: 'unset',
-        fontSize: '14px',
-        backgroundColor: 'var(--colors-magenta)',
+        fontSize: 'var(--styles-fonts-font-size-fontsize2)',
+        backgroundColor: 'var(--styles-colors-primary-magenta)',
         color:'white',
         '&:hover, &:active': {
-          border: '1px solid var(--colors-magenta)',
+          border: '1px solid var(--styles-colors-primary-magenta)',
           marginTop: 'unset',
-          backgroundColor: 'var(--colors-magenta)',
-        }
+          backgroundColor: 'var(--styles-colors-primary-magenta)',
+        },
+        borderRadius:'var(--styles-border-radius-border-radius1)'
       },
       secondButton: {
         height: '35px',
         marginTop: 'unset',
         textTransform: 'unset',
-        fontSize: '14px',
-        color: 'var(--colors-magenta)',
-        border: '1px solid var(--colors-magenta)',
+        fontSize: 'var(--styles-fonts-font-size-fontsize2)',
+        color: 'var(--styles-colors-primary-magenta)',
+        border: '1px solid var(--styles-colors-primary-magenta)',
         '&:hover, &:active': {
-          border: '1px solid var(--colors-magenta)',
-        }
+          border: '1px solid var(--styles-colors-primary-magenta)',
+        },
+        borderRadius:'var(--styles-border-radius-border-radius1)'
       },
       thirdButton: {
         height: '35px',
         marginTop: 'unset',
         textTransform: 'unset',
-        fontSize: '14px',
-        border: `1px solid var(--colors-black)`,
-        color: 'var(--colors-black)',
+        fontSize: 'var(--styles-fonts-font-size-fontsize2)',
+        border: `1px solid var(--styles-colors-primary-black)`,
+        color: 'var(--styles-colors-primary-black)',
         '&:hover, &:active, &:focus': {
-          border: '1px solid var(--colors-black)',
-          color: 'var(--colors-black)'
-        }
+          border: '1px solid var(--styles-colors-primary-black)',
+          color: 'var(--styles-colors-primary-black)'
+        },
+        borderRadius:'var(--styles-border-radius-border-radius1)'
       },
       searchField: {
         boxSizing: 'border-box',
         border: 'unset',
         width: '100%',
-        outline: '1px solid var(--colors-grey)',
-        color: 'var(--colors-black)',
+        outline: '1px solid var(--styles-colors-primary-grey1)',
+        color: 'var(--styles-colors-primary-black)',
         backgroundColor: 'var(--colors-white)',
-        borderRadius: '6px',
+        borderRadius: 'var(--styles-border-radius-border-radius1)',
         height: '33px',
         paddingLeft: '45px',
         paddingRight: '45px',
@@ -76,17 +80,17 @@ export const PoC = () => {
         transition: '0.2s',
         fontSize:'14px',
         '&:hover': {
-          backgroundColor: 'var(--colors-grey2)'
+          backgroundColor: 'var(--styles-colors-primary-grey2)'
         },
         '&:focus, &:active': {
-          outline: '2px solid var(--colors-magenta)',
+          outline: '2px solid var(--styles-colors-primary-magenta)',
           boxShadow: '0px 4px 15px rgb(226 0 116 / 18%)'
         },
       },
       searchBox: {
         position: 'relative',
         right:'16px',
-        borderColor: 'var(--colors-grey)'
+        borderColor: 'var(--styles-colors-primary-grey1)'
       },
       searchIcon: {
         position: 'absolute',
@@ -103,8 +107,8 @@ export const PoC = () => {
   return (
     <Box>
       <Box className={classes.header}>
-        <Typography variant="h4" fontWeight={800} mt={0}>
-          Partnerportal
+        <Typography variant="h4" fontWeight={'var(--styles-fonts-font-weight-weight3)'} mt={0}>
+          Partnerportal 
         </Typography>
         <Box className={classes.logo}>
           <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -112,7 +116,7 @@ export const PoC = () => {
                 <path d="M0 0H51V51H0V0Z" fill="transparent" />
                 <path
                     d="M33.5116 31.3277H40.7974V24.042H37.1609H33.5245V31.3277H33.5116ZM40.7974 7.28613V19.6731H38.6129V19.3133C38.6129 13.4796 35.3363 9.8432 29.1428 9.8432H28.783V36.0692C28.783 39.7056 30.235 41.1705 33.8843 41.1705H34.9765V43.7147H16.0362V41.1705H17.1284C20.7649 41.1705 22.2297 39.7185 22.2297 36.0692V9.83035H21.8699C15.6764 9.83035 12.3998 13.4668 12.3998 19.3005V19.6603H10.2154V7.28613H40.7974ZM17.4882 31.3277H10.2025V24.042H13.8389H17.4754V31.3277H17.4882Z"
-                    fill="var(--colors-magenta)" />
+                    fill="var(--styles-colors-primary-magenta)" />
             </g>
             <defs>
                 <clipPath id="clip0_15692_88405">
@@ -120,6 +124,8 @@ export const PoC = () => {
                 </clipPath>
             </defs>
           </svg>
+          {/* <i className="var(--styles-icons-add)" />
+          <i className="fa fa-plus" />   */}
         </Box>
       </Box>
       <Box className={classes.buttons}>

@@ -18,13 +18,13 @@ import '../styles/theme.css';
   
 const useStyles = makeStyles()((theme: Theme) => ({
     headerCell: {
-      backgroundColor: 'var(--colors-white)',
+      backgroundColor: 'var(--styles-colors-primary-white)',
       paddingTop: '8px',
       paddingBottom: '8px'
     },
     headerLabel: {
-      fontWeight: '800',
-      fontSize: '16px'
+      fontWeight: 'var(--styles-fonts-font-weight-weight3)',
+      fontSize: 'var(--styles-fonts-font-size-fontsize3)'
     },
     headerWithFiltering: {
       display: 'flex',
@@ -35,10 +35,10 @@ const useStyles = makeStyles()((theme: Theme) => ({
     },
     tableRow: {
       '&:nth-of-type(even) td': {
-        backgroundColor: 'var(--colors-white)'
+        backgroundColor: 'var(--styles-colors-primary-white)'
       },
       '&:nth-of-type(odd) td': {
-        backgroundColor: 'var(--colors-grey4)'
+        backgroundColor: 'var(--styles-colors-secondary-grey4)'
       },
       '& td': {
         fontSize: '16px',
@@ -62,15 +62,18 @@ const useStyles = makeStyles()((theme: Theme) => ({
       fontWeight: '500',
       transition: '0.2s',
       '&:hover': {
-        color: 'var(--colors-magenta)'
+        color: 'var(--styles-colors-primary-magenta)'
       }
     },
     activePage: {
-      color: 'var(--colors-magenta)'
+      color: 'var(--styles-colors-primary-magenta)'
     },
     pagination: {
       display: 'flex'
     },
+    tableContainer: {
+      borderRadius: 'var(--styles-border-radius-border-radius2)'
+    }
   })) 
 
   const TableSkeleton = (
@@ -95,7 +98,7 @@ const useStyles = makeStyles()((theme: Theme) => ({
   
     return (
       <>
-        <TableContainer>
+        <TableContainer className={classes.tableContainer}>
             <MUITable stickyHeader>
               <TableHead>
                 <TableRow className={classes.tableRow}>

@@ -2,80 +2,10 @@
 @import url('https://fonts.cdnfonts.com/css/teleneo-office');
 
 * {
-    font-family: 'TeleNeo', sans-serif !important;
+    font-family: var(--styles-fonts-font-family-tele-neo), sans-serif !important;
   }
   
   body {
     padding: 60px;
-    /* background-color: #E20074; */
-    background-color: var(--colors-grey3);
-  }
-  
-  input {
-    background-color: white;
-    border-radius: 5px;
-    border: 1px solid rgb(97, 32, 158);
-    color: black;
-    font-size: 1.2rem;
-    outline: none;
-    padding: 10px 15px;
-    width: 100%;
-  }
-
-  h1 {
-    font-size: 4rem;
-    letter-spacing: var(--global-letter-spacing1);
-  }
-
-  p{
-    font-size: var(--global-font-size3);
-  }
-
-  h1, p {
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: var(--global-font-size1);
-  }
-  
-  h3 {
-    font-size: var(--global-font-size2);
-    margin-bottom: 5px;
-  }
-  
-  .card-grid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .card {
-    align-content: center;
-    align-items: center;
-    background-color: var(--global-bg-color2);
-    border-radius: 10px;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
-    display: flex;
-    flex-direction: column;
-    height: 0%;  
-    justify-content: center;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    overflow: hidden;
-  }
-  
-  .card p {
-    background-color: var(--global-bg-color2);
-    flex: 1;
-    font-size: 1.5rem;
-    margin-top: 5px;
-    padding: 5px 20px 0px 20px;
-    text-align: center;
-    letter-spacing: var(--global-letter-spacing1);
-  }
-  
-  .card img {
-    width: 100%;
+    background-color: var(--styles-colors-secondary-grey4);
   }

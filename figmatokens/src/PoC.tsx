@@ -95,7 +95,6 @@ export const PoC = () => {
       },
       logo: {
         marginLeft: '10px',
-        
       }
     }))
     // fuente, borde de tabla, border-radius, imagenes (assets),

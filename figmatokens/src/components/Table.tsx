@@ -18,7 +18,7 @@ import '../styles/theme.css';
   
 const useStyles = makeStyles()((theme: Theme) => ({
     headerCell: {
-      backgroundColor: 'var(--colors-grey3)',
+      backgroundColor: 'var(--colors-white)',
       paddingTop: '8px',
       paddingBottom: '8px'
     },

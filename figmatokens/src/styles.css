@@ -8,6 +8,7 @@
   body {
     padding: 60px;
     /* background-color: #E20074; */
+    background-color: var(--colors-grey3);
   }
   
   input {

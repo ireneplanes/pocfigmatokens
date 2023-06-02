@@ -1,20 +1,21 @@
 /**
  * Do not edit directly
- * Generated on Thu, 01 Jun 2023 09:55:06 GMT
+ * Generated on Fri, 02 Jun 2023 08:25:10 GMT
  */
 
 :root {
-  --styles-colors-primary-magenta: #E20074; /* ok */
-  --styles-colors-primary-black: #191919; /* ok */
-  --styles-colors-primary-grey1: #B2B2B2; /* ok */
-  --styles-colors-primary-grey2: #f2f2f2; /* ok */
-  --styles-colors-primary-white: #ffffff; /* ok */
-  --styles-colors-secondary-grey3: #EAEAEA; /* ok */
-  --styles-colors-secondary-grey4: #F6F6F6; /* ok */
-  --styles-colors-secondary-red: #D82A48; /* ok */
+  --styles-colors-primary-magenta: #E20074;
+  --styles-colors-primary-black: #191919;
+  --styles-colors-primary-grey1: #B2B2B2;
+  --styles-colors-primary-grey2: #f2f2f2;
+  --styles-colors-primary-white: #ffffff;
+  --styles-colors-secondary-grey3: #EAEAEA;
+  --styles-colors-secondary-grey4: #F6F6F6;
+  --styles-colors-secondary-red: #D82A48;
   --styles-colors-opacity-opacity1: 0.5;
   --styles-colors-opacity-opacity2: 0.8;
-  --styles-fonts-font-family-tele-neo: 'TeleNeo'; /* ok */
+  --styles-fonts-font-family-primary: TeleNeo;
+  --styles-fonts-font-family-secondary: Inter;
   --styles-fonts-font-weight-weight1: 400;
   --styles-fonts-font-weight-weight2: 500;
   --styles-fonts-font-weight-weight3: 800;
@@ -25,6 +26,6 @@
   --styles-border-style-border2: [object Object];
   --styles-border-radius-border-radius1: 6px;
   --styles-border-radius-border-radius2: 15px;
-  /* --styles-icons-add: 'fa-solid fa-plus';
-  --styles-icons-export: fas fa-file-export; */
+  --styles-icons-add: fa-solid fa-plus;
+  --styles-icons-export: fas fa-file-export;
 }

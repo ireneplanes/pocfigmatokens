@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 01 Jun 2023 09:55:07 GMT
+// Generated on Fri, 02 Jun 2023 08:25:10 GMT
 
 
 import UIKit
@@ -24,7 +24,8 @@ public class StyleDictionaryClass {
     public static let stylesColorsSecondaryGrey3 = #EAEAEA
     public static let stylesColorsSecondaryGrey4 = #F6F6F6
     public static let stylesColorsSecondaryRed = #D82A48
-    public static let stylesFontsFontFamilyTeleNeo = TeleNeo
+    public static let stylesFontsFontFamilyPrimary = TeleNeo
+    public static let stylesFontsFontFamilySecondary = Inter
     public static let stylesFontsFontSizeFontsize1 = 12px
     public static let stylesFontsFontSizeFontsize2 = 14px
     public static let stylesFontsFontSizeFontsize3 = 16px

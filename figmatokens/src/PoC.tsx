@@ -38,7 +38,8 @@ export const PoC = () => {
           marginTop: 'unset',
           backgroundColor: 'var(--styles-colors-primary-magenta)',
         },
-        borderRadius:'var(--styles-border-radius-border-radius1)'
+        borderRadius:'var(--styles-border-radius-border-radius1)',
+        
       },
       secondButton: {
         height: '35px',
@@ -50,7 +51,8 @@ export const PoC = () => {
         '&:hover, &:active': {
           border: '1px solid var(--styles-colors-primary-magenta)',
         },
-        borderRadius:'var(--styles-border-radius-border-radius1)'
+        borderRadius:'var(--styles-border-radius-border-radius1)',
+        backgroundColor:'var(--styles-colors-primary-white)'
       },
       thirdButton: {
         height: '35px',
@@ -63,7 +65,8 @@ export const PoC = () => {
           border: '1px solid var(--styles-colors-primary-black)',
           color: 'var(--styles-colors-primary-black)'
         },
-        borderRadius:'var(--styles-border-radius-border-radius1)'
+        borderRadius:'var(--styles-border-radius-border-radius1)',
+        backgroundColor:'var(--styles-colors-primary-white)'
       },
       searchField: {
         boxSizing: 'border-box',
@@ -79,6 +82,7 @@ export const PoC = () => {
         marginRight: '155px',
         transition: '0.2s',
         fontSize:'14px',
+        backgroundColor:'var(--styles-colors-primary-white)',
         '&:hover': {
           backgroundColor: 'var(--styles-colors-primary-grey2)'
         },
@@ -102,10 +106,10 @@ export const PoC = () => {
       },
       title: {
         fontWeight: 'var(--styles-fonts-font-weight-weight3)',
-        opacity: 'var(--styles-colors-opacity-opacity2)',
+        opacity: 'var(--styles-colors-opacity-opacity1)',
       }
     }))
-    
+
     const { classes } = useStyles()
 
   return (

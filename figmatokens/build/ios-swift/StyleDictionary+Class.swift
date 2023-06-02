@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 02 Jun 2023 09:04:38 GMT
+// Generated on Fri, 02 Jun 2023 09:12:53 GMT
 
 
 import UIKit
@@ -22,7 +22,7 @@ public class StyleDictionaryClass {
     public static let stylesColorsPrimaryMagenta = #c10466
     public static let stylesColorsPrimaryWhite = #ffffff
     public static let stylesColorsSecondaryGrey3 = #e0dfdf
-    public static let stylesColorsSecondaryGrey4 = #fbe8fa
+    public static let stylesColorsSecondaryGrey4 = #bcbcbc
     public static let stylesColorsSecondaryRed = #D82A48
     public static let stylesFontsFontCaseCase1 = uppercase
     public static let stylesFontsFontCaseCase2 = capitalize

@@ -74,7 +74,6 @@ export const PoC = () => {
         width: '100%',
         outline: '1px solid var(--styles-colors-primary-grey1)',
         color: 'var(--styles-colors-primary-black)',
-        backgroundColor: 'var(--colors-white)',
         borderRadius: 'var(--styles-border-radius-border-radius1)',
         height: '33px',
         paddingLeft: '45px',

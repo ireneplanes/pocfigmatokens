@@ -99,15 +99,19 @@ export const PoC = () => {
       },
       logo: {
         marginLeft: '10px',
+      },
+      title: {
+        fontWeight: 'var(--styles-fonts-font-weight-weight3)',
+        opacity: 'var(--styles-colors-opacity-opacity2)',
       }
     }))
-    // fuente, borde de tabla, border-radius, imagenes (assets),
+    
     const { classes } = useStyles()
 
   return (
     <Box>
       <Box className={classes.header}>
-        <Typography variant="h4" fontWeight={'var(--styles-fonts-font-weight-weight3)'} sx={{ opacity: 'var(--styles-colors-opacity-opacity2)' }} mt={0}>
+        <Typography variant="h4" className={classes.title} sx={{textTransform: 'var(--styles-fonts-font-case-case1)'}} mt={0}>
           Partnerportal 
         </Typography>
         <Box className={classes.logo}>

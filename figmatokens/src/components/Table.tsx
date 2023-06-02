@@ -38,7 +38,7 @@ const useStyles = makeStyles()((theme: Theme) => ({
         backgroundColor: 'var(--styles-colors-primary-white)'
       },
       '&:nth-of-type(odd) td': {
-        backgroundColor: 'var(--styles-colors-secondary-grey4)'
+        backgroundColor: 'var(--styles-colors-primary-grey2)'
       },
       '& td': {
         fontSize: '16px',

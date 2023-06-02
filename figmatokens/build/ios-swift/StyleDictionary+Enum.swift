@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 02 Jun 2023 09:00:49 GMT
+// Generated on Fri, 02 Jun 2023 09:04:38 GMT
 
 
 import UIKit
@@ -22,7 +22,7 @@ public enum StyleDictionaryEnum {
     public static let stylesColorsPrimaryMagenta = #c10466
     public static let stylesColorsPrimaryWhite = #ffffff
     public static let stylesColorsSecondaryGrey3 = #e0dfdf
-    public static let stylesColorsSecondaryGrey4 = #F6F6F6
+    public static let stylesColorsSecondaryGrey4 = #fbe8fa
     public static let stylesColorsSecondaryRed = #D82A48
     public static let stylesFontsFontCaseCase1 = uppercase
     public static let stylesFontsFontCaseCase2 = capitalize

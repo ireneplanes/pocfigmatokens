@@ -3,7 +3,6 @@
 
 * {
     font-family: var(--styles-fonts-font-family-primary), sans-serif !important;
-    text-transform: var(--styles-fonts-font-case-case1);
   }
   
   body {

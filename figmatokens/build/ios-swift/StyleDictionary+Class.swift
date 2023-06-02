@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 02 Jun 2023 08:25:10 GMT
+// Generated on Fri, 02 Jun 2023 08:41:21 GMT
 
 
 import UIKit
@@ -24,6 +24,8 @@ public class StyleDictionaryClass {
     public static let stylesColorsSecondaryGrey3 = #EAEAEA
     public static let stylesColorsSecondaryGrey4 = #F6F6F6
     public static let stylesColorsSecondaryRed = #D82A48
+    public static let stylesFontsFontCaseCase1 = capitalize
+    public static let stylesFontsFontCaseCase2 = uppercase
     public static let stylesFontsFontFamilyPrimary = TeleNeo
     public static let stylesFontsFontFamilySecondary = Inter
     public static let stylesFontsFontSizeFontsize1 = 12px

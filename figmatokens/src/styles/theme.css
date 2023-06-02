@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 02 Jun 2023 08:25:10 GMT
+ * Generated on Fri, 02 Jun 2023 08:41:21 GMT
  */
 
 :root {
@@ -22,6 +22,8 @@
   --styles-fonts-font-size-fontsize1: 12px;
   --styles-fonts-font-size-fontsize2: 14px;
   --styles-fonts-font-size-fontsize3: 16px;
+  --styles-fonts-font-case-case1: capitalize;
+  --styles-fonts-font-case-case2: uppercase;
   --styles-border-style-border1: [object Object];
   --styles-border-style-border2: [object Object];
   --styles-border-radius-border-radius1: 6px;

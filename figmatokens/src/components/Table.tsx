@@ -72,7 +72,8 @@ const useStyles = makeStyles()((theme: Theme) => ({
       display: 'flex'
     },
     tableContainer: {
-      borderRadius: 'var(--styles-border-radius-border-radius2)'
+      borderRadius: 'var(--styles-border-radius-border-radius2)',
+      border: 'var(--styles-border-style-border1.style)'
     }
   })) 
 

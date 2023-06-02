@@ -107,7 +107,7 @@ export const PoC = () => {
   return (
     <Box>
       <Box className={classes.header}>
-        <Typography variant="h4" fontWeight={'var(--styles-fonts-font-weight-weight3)'} mt={0}>
+        <Typography variant="h4" fontWeight={'var(--styles-fonts-font-weight-weight3)'} sx={{ opacity: 'var(--styles-colors-opacity-opacity2)' }} mt={0}>
           Partnerportal 
         </Typography>
         <Box className={classes.logo}>

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 02 Jun 2023 08:25:10 GMT
+// Generated on Fri, 02 Jun 2023 08:41:21 GMT
 
 
 import UIKit
@@ -24,6 +24,8 @@ internal struct StyleDictionaryStruct {
     internal static let stylesColorsSecondaryGrey3 = #EAEAEA
     internal static let stylesColorsSecondaryGrey4 = #F6F6F6
     internal static let stylesColorsSecondaryRed = #D82A48
+    internal static let stylesFontsFontCaseCase1 = capitalize
+    internal static let stylesFontsFontCaseCase2 = uppercase
     internal static let stylesFontsFontFamilyPrimary = TeleNeo
     internal static let stylesFontsFontFamilySecondary = Inter
     internal static let stylesFontsFontSizeFontsize1 = 12px

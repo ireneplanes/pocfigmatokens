@@ -1,33 +1,33 @@
 /**
  * Do not edit directly
- * Generated on Fri, 02 Jun 2023 08:41:21 GMT
+ * Generated on Fri, 02 Jun 2023 09:00:49 GMT
  */
 
 :root {
-  --styles-colors-primary-magenta: #E20074;
+  --styles-colors-primary-magenta: #c10466;
   --styles-colors-primary-black: #191919;
-  --styles-colors-primary-grey1: #B2B2B2;
-  --styles-colors-primary-grey2: #f2f2f2;
+  --styles-colors-primary-grey1: #e0dfdf;
+  --styles-colors-primary-grey2: #f0f0f0;
   --styles-colors-primary-white: #ffffff;
-  --styles-colors-secondary-grey3: #EAEAEA;
+  --styles-colors-secondary-grey3: #e0dfdf;
   --styles-colors-secondary-grey4: #F6F6F6;
   --styles-colors-secondary-red: #D82A48;
-  --styles-colors-opacity-opacity1: 0.5;
-  --styles-colors-opacity-opacity2: 0.8;
-  --styles-fonts-font-family-primary: TeleNeo;
-  --styles-fonts-font-family-secondary: Inter;
-  --styles-fonts-font-weight-weight1: 400;
-  --styles-fonts-font-weight-weight2: 500;
-  --styles-fonts-font-weight-weight3: 800;
-  --styles-fonts-font-size-fontsize1: 12px;
-  --styles-fonts-font-size-fontsize2: 14px;
-  --styles-fonts-font-size-fontsize3: 16px;
-  --styles-fonts-font-case-case1: capitalize;
-  --styles-fonts-font-case-case2: uppercase;
+  --styles-colors-opacity-opacity1: 0.8;
+  --styles-colors-opacity-opacity2: 0.5;
+  --styles-fonts-font-family-primary: Inter;
+  --styles-fonts-font-family-secondary: TeleNeo;
+  --styles-fonts-font-weight-weight1: 500;
+  --styles-fonts-font-weight-weight2: 800;
+  --styles-fonts-font-weight-weight3: 400;
+  --styles-fonts-font-size-fontsize1: 14px;
+  --styles-fonts-font-size-fontsize2: 16px;
+  --styles-fonts-font-size-fontsize3: 18px;
+  --styles-fonts-font-case-case1: uppercase;
+  --styles-fonts-font-case-case2: capitalize;
   --styles-border-style-border1: [object Object];
   --styles-border-style-border2: [object Object];
-  --styles-border-radius-border-radius1: 6px;
-  --styles-border-radius-border-radius2: 15px;
+  --styles-border-radius-border-radius1: 15px;
+  --styles-border-radius-border-radius2: 6px;
   --styles-icons-add: fa-solid fa-plus;
   --styles-icons-export: fas fa-file-export;
 }
